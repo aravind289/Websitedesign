@@ -1,0 +1,104 @@
+header{
+    height: 20vh;
+}
+
+.headernav{
+    display: flex;
+    /* flex-direction: row; */
+    background: beige;
+    height: 135px;
+}
+
+.headerul{
+    list-style: none;
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logos{
+    width: 70%;
+    height: 80%;
+
+}
+
+.heading{
+    padding-top: 2%;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: 600;
+    color: brown;
+}
+
+article{
+    display: flex;
+    height: 60vh;
+}
+
+
+article nav ul li{
+    /* margin: 3% 0 5%; */
+}
+
+.verticalnav{
+    width: 15%;
+    background: lavender;
+}
+
+.verticalul{
+    list-style: none;   
+    margin-top: 5px;
+    padding-left: 22px;
+}
+
+button{
+    margin: 3% 0 5%;
+    width: 70%;
+}
+
+.searchfield{
+    width: 65%;
+    margin: 10% 0 30%;
+}
+
+.articlenav{
+    width: 100%;
+    background: bisque;
+}
+
+.articleul{
+    display: flex;
+    /* background: azure; */
+    margin-top: 10px;
+    /* width: 150%; */
+    justify-content: space-evenly;
+    list-style: none;
+   
+}
+
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+
+}
+
+a:hover{
+    font-size: x-large;
+    color: red;
+}
+
+footer{
+    height: 17vh;
+    background-color: mistyrose;
+    position: relative;
+}
+
+.copyright{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 45%;
+    font-size: small;
+}
