@@ -97,8 +97,43 @@ footer{
 
 .copyright{
     position: absolute;
-    text-align: center;
-    bottom: 0;
-    left: 45%;
     font-size: small;
+    top: 31%;
+    right: 20%;
+}
+
+.footerlink{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 40%;
+    width: 50%;
+}
+
+.footerlink li{
+    margin-right: 2%;
+}
+
+.footerlink li a:hover{
+color: black;
+font-size: larger;
+text-decoration: underline;
+}
+
+#display{
+    display: flex;
+    flex-flow: wrap;
+    overflow-y:auto;
+}
+
+.bookImg{
+    margin: 0 2% 1%;
+    width: 100px;
+    height: 100px;
+}
+
+.accountform{
+    text-align: center;
+    margin-top: 3%;
 }

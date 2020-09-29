@@ -2,6 +2,7 @@
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="../styles/index.css"/>
+      
 
     </head>
 
@@ -31,7 +32,7 @@
         
                         </li>
                         <li>
-                            <button type="button">Books </button>
+                            <button type="button" id="books">Books </button>
                         </li>
                         <li>
                             <button type="button">Gifts</button>
@@ -56,24 +57,55 @@
                             <a href="#faq">FAQ</a>
                         </li>
                         <li>
-                            <a href="#account">Account</a>
+                            <a href="#account" id="accounts">Account</a>
                         </li>
                         <li>
                             <a href="#help">Help</a>
                         </li>
                     </ul>
-                </nav>           
-
-            </article>
-            <footer>
-                               
-               <div class="col-md-12 footeraddress">
+                        
+                    <div id= "display"></div>
                     
-                  
-               </div>
+                    <!-- finish the form  -->
+                    <form class="accountform">
+                        <input type="text" placeholder="First Name" required/>
+                        <input type="text" placeholder="Last Name" required/>
+                        <input type="date"  required/>
+                        <input  list="countrynames" required/>
+
+                    </form>
+                    <datalist id="countrynames">
+
+                    </datalist>
+
+                </nav>           
+             
+                    
+              
+            </article>
+            <footer>                    
+                <ul class="footerlink">
+                    <li>
+                        <a href="#regdis">RegDisclosures</a>
+                    </li>
+                    <li>
+                        <a href="#hp">Hyper Policy</a>
+                    </li>
+                    <li>
+                        <a href="Ps"> Statement Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#siteterm">Site term</a>
+                    </li>
+                    <li>
+                        <a href="#sitemap">Map Site</a>
+                    </li>
+                </ul>
+                
 
                 <p class="copyright">
-                    &#169;ShopersDen.com
+                    &#169;ShopersDen.com.
+                    All rights reserved.
                 </p>
 
                
@@ -81,6 +113,6 @@
 
             </footer>
         </section>
-
+          <script type="text/javascript" src="../scripts/index.js"></script>
     </body>
 </html>
